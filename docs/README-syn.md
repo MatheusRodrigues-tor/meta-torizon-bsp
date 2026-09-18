@@ -4,13 +4,13 @@ Setup
 2. Initialize and sync the repo manifest for Synaptics:
 ```bash
 $ mkdir common-torizon; cd common-torizon
-$ repo init -u https://git.toradex.com/toradex-manifest.git -b scarthgap-7.x.y -m common-torizon/syn/integration.xml
+$ repo init -u https://github.com/torizon/manifest.git -b wrynose-8.x.y -m torizon/syn/integration.xml
 $ repo sync -j 10
 ```
 > Manifests for Wrynose are still under development
 
 > [!IMPORTANT]
-> Until an official release of Common Torizon OS, only the `integration.xml` manifest is suitable for end-users to build. After an official release, users will be able to use the `default.xml` manifest.
+> Until an official release of Common Torizon OS, only the `integration.xml` manifest is suitable for end-users to build. After an official release, users will be able to use the `release.xml` manifest.
 
 Note that `integration.xml` is a development manifest used internally and it might contain development features and thus be considered unstable.
 
