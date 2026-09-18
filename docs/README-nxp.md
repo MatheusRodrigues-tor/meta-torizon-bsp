@@ -4,13 +4,13 @@ Setup
 2. Initialize and sync the repo manifest for NXP:
 ```bash
 $ mkdir common-torizon; cd common-torizon
-$ repo init -u https://git.toradex.com/toradex-manifest.git -b scarthgap-7.x.y -m common-torizon/nxp/default.xml
+$ repo init -u https://github.com/torizon/manifest.git -b wrynose-8.x.y -m torizon/nxp/release.xml
 $ repo sync -j 10
 ```
 > Manifests for Wrynose are still under development
 
-We **strongly recommend** using the `default.xml` manifest. The `integration.xml` and `next.xml` are development manifests used internally and they might be unstable.
-`default.xml` is the manifest used for our releases, so they are reliable.  
+We **strongly recommend** using the `release.xml` manifest. The `integration.xml` and `next.xml` are development manifests used internally and they might be unstable.
+`release.xml` is the manifest used for our releases, so they are reliable.
 
 Alternatively, you can manually clone all layers one by one. Refer to the section [_Manual Setup_](#manual-setup) at the end of this document to learn how.
 
