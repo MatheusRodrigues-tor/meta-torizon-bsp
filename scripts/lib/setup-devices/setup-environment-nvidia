@@ -53,7 +53,6 @@ BASELAYERS ?= " \\
 BSPLAYERS ?= " \\
   \${OEROOT}/layers/meta-yocto/meta-yocto-bsp \\
   \${OEROOT}/layers/meta-yocto/meta-poky \\
-  \${OEROOT}/layers/meta-security \\
   \${OEROOT}/layers/meta-tegra \\
 "
 
